@@ -1,0 +1,684 @@
+/*-------------------
+style de la pagina de arquitectura de computadoras
+autor: Carlos Eduardo Hernandez Herrera
+-------------------*/
+/**/
+/*fondos de las paginas*/
+body.fondo1
+{
+	/*----cargamos el fondo----*/
+	background-image: url("../MEDIA/IMAGES/fondo.jpg");
+	/*----fondo estatico----*/
+	background-attachment: none;
+	/*----cambiar el tamaño del fondo----*/
+	background-size: 100%;
+	
+}
+
+/*imagenes*/
+img.imagen1
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/imagen1.jpg");
+	/*---- tamño ----*/
+	max-width: 25%;
+	max-height: 25%;
+}
+img.imagen2
+{
+	/*---- cargar imagen ----*/
+	content: url("../MEDIA/IMAGES/imagen2.jpg");
+	/*---- tamño ----*/
+	max-width: 30%;
+	max-height: 30%;
+}
+
+/*botones*/
+button.boton
+{
+	background-color: white;
+	/*---- tamño ----*/
+	width: 10%;
+	border: black 5px solid;
+}
+
+/*titulos*/
+p.titulo1
+{
+	/*----Tipo de letra----*/
+	font-family: Arial;
+	/*----Tamaño de letra----*/
+	font-size: 350%;
+	/*----color de la letra----*/
+	color: white;
+	/*----Ancho del contenido de la pagina----*/
+	width:75%;
+	/*----fondo del texto----*/
+	background-color: black;
+	height: 135px;
+	width: 600px;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: blue 5px solid;
+}
+p.titulo2
+{
+	/*----Tipo de letra----*/
+	font-family: Arial;
+	/*----Tamaño de letra----*/
+	font-size: 350%;
+	/*----color de la letra----*/
+	color: white;
+	/*----Ancho del contenido de la pagina----*/
+	width:75%;
+	/*----fondo del texto----*/
+	background-color: black;
+	height: 135px;
+	width: 600px;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: blue 5px solid;
+}
+p.titulo3
+{
+	/*----Tipo de letra----*/
+	font-family: Arial;
+	/*----Tamaño de letra----*/
+	font-size: 350%;
+	/*----color de la letra----*/
+	color: white;
+	/*----Ancho del contenido de la pagina----*/
+	width:75%;
+	/*----fondo del texto----*/
+	background-color: black;
+	height: 195px;
+	width: 600px;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: blue 5px solid;
+}
+p.titulo4
+{
+	/*----Tipo de letra----*/
+	font-family: Arial;
+	/*----Tamaño de letra----*/
+	font-size: 350%;
+	/*----color de la letra----*/
+	color: white;
+	/*----Ancho del contenido de la pagina----*/
+	width:75%;
+	/*----fondo del texto----*/
+	background-color: black;
+	height: 275px;
+	width: 600px;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: blue 5px solid;
+}
+p.titulo5
+{
+	/*----Tipo de letra----*/
+	font-family: Arial;
+	/*----Tamaño de letra----*/
+	font-size: 350%;
+	/*----color de la letra----*/
+	color: white;
+	/*----Ancho del contenido de la pagina----*/
+	width:75%;
+	/*----fondo del texto----*/
+	background-color: black;
+	height: 215px;
+	width: 600px;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: blue 5px solid;
+}
+
+/*temarios*/
+div.temario1
+{
+	/*----fondo del texto----*/
+	background-color: white;
+	height: 1030px;
+	width: 400px;
+	border: black 10px solid;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+div.temario2
+{
+	/*----fondo del texto----*/
+	background-color: white;
+	height: 550px;
+	width: 400px;
+	border: black 10px solid;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+div.temario3
+{
+	/*----fondo del texto----*/
+	background-color: white;
+	height: 700px;
+	width: 400px;
+	border: black 10px solid;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+div.temario4
+{
+	/*----fondo del texto----*/
+	background-color: white;
+	height: 500px;
+	width: 400px;
+	border: black 10px solid;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+/*textos*/
+p.texto1
+{
+	text-align: justify;
+	/*----Tipo de letra----*/
+	font-family: Arial;
+	/*----Tamaño de letra----*/
+	font-size: 150%;
+	/*----color de la letra----*/
+	color: white;
+	/*----fondo del texto----*/
+	background-color: black;
+	height: 400px;
+	width: 800px;
+	border: red 10px solid;
+}
+
+/*fondos de textos*/
+div.texto2
+{
+	background-color: white;
+	height: 500px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto3
+{
+	background-color: white;
+	height: 970px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto4
+{
+	background-color: white;
+	height: 830px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto5
+{
+	background-color: white;
+	height: 1000px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto6
+{
+	background-color: white;
+	height: 350px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto7
+{
+	background-color: white;
+	height: 1000px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto8
+{
+	background-color: white;
+	height:1720px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto9
+{
+	background-color: white;
+	height: 1220px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto10
+{
+	background-color: white;
+	height: 930px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto11
+{
+	background-color: white;
+	height: 300px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto12
+{
+	background-color: white;
+	height: 150px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto13
+{
+	background-color: white;
+	height: 300px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto14
+{
+	background-color: white;
+	height: 650px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto15
+{
+	background-color: white;
+	height: 120px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto16
+{
+	background-color: white;
+	height: 300px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto17
+{
+	background-color: white;
+	height: 460px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto18
+{
+	background-color: white;
+	height: 300px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto19
+{
+	background-color: white;
+	height: 300px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto20
+{
+	background-color: white;
+	height: 250px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto21
+{
+	background-color: white;
+	height: 350px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto22
+{
+	background-color: white;
+	height: 570px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto23
+{
+	background-color: white;
+	height: 180px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto24
+{
+	background-color: white;
+	height: 850px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto25
+{
+	background-color: white;
+	height: 100px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto26
+{
+	background-color: white;
+	height: 520px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto27
+{
+	background-color: white;
+	height: 180px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto28
+{
+	background-color: white;
+	height: 300px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto29
+{
+	background-color: white;
+	height: 400px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto30
+{
+	background-color: white;
+	height: 270px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto31
+{
+	background-color: white;
+	height: 340px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto32
+{
+	background-color: white;
+	height: 400px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto33
+{
+	background-color: white;
+	height: 300px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto34
+{
+	background-color: white;
+	height: 700px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto35
+{
+	background-color: white;
+	height: 510px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto36
+{
+	background-color: white;
+	height: 280px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto37
+{
+	background-color: white;
+	height: 320px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto38
+{
+	background-color: white;
+	height: 420px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto39
+{
+	background-color: white;
+	height: 600px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto40
+{
+	background-color: white;
+	height: 650px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto41
+{
+	background-color: white;
+	height: 200px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto42
+{
+	background-color: white;
+	height: 200px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto43
+{
+	background-color: white;
+	height: 480px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto45
+{
+	background-color: white;
+	height: 160px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto46
+{
+	background-color: white;
+	height: 280px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto47
+{
+	background-color: white;
+	height: 380px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto48
+{
+	background-color: white;
+	height: 300px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto49
+{
+	background-color: white;
+	height: 250px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto50
+{
+	background-color: white;
+	height: 250px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto51
+{
+	background-color: white;
+	height: 200px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto52
+{
+	background-color: white;
+	height: 200px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto53
+{
+	background-color: white;
+	height: 180px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto54
+{
+	background-color: white;
+	height: 280px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto55
+{
+	background-color: white;
+	height: 200px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto56
+{
+	background-color: white;
+	height: 200px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto57
+{
+	background-color: white;
+	height: 800px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto58
+{
+	background-color: white;
+	height: 250px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto59
+{
+	background-color: white;
+	height: 500px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto60
+{
+	background-color: white;
+	height: 380px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto61
+{
+	background-color: white;
+	height: 420px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto62
+{
+	background-color: white;
+	height: 280px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
+div.texto63
+{
+	background-color: white;
+	height: 800px;
+	width: 800px;
+	margin-left: 10%;
+	border: black 5px solid;
+}
